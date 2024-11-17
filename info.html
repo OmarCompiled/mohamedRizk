@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles/style.css">
         <meta charset="UTF-8">
         <meta name="author" content="OmarCompiled">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/info.css">
+        <script src="script.js"></script>
     </head>
     <body>
-        <h1>
+       <h1>
             <div id="head-div">    
                 إِنَّا ِلِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
             </div>
        </h1>
-        <h2>
-            ببالغ الحزن والأسى والتسليم لقضاء الله وقدره، ننعي وفاة زميلنا الطبيب محمد رزق محمد السقا، من الفرقة الثالثة، الذي توفاه الله يوم الجمعة، إثر حادث قطار
-ولا نقول إلا ما يرضي الله، اللهم اغفر له وارحمه وتجاوز عن سيئه واجعله في عليين واربط اللهم على قلب أهله وذويه 
-.اللهم انزله منازل الشهداء والصالحين وحسن اولئك رفيقاً
-
-نسأل  الله أن يجعل دراسته للطب شفيعة له عند ربه وأن يجعل طلبه للعلم مكرُمةً له عند ربه وإنا لله وإنا إليه راجعون
-
-اللهم الحقنا به على خير حال يارب العالمين ..
-
-ادعوا له بالرحمه والمغفره
-        </h2>
+       <div id="counter-div">
+            <label id="counter">0</label>
+       </div>
+        <p id="duaa">
+            اللهم اغفر له وارحمه
+        </p>
+       <div id="thikr">
+            <button id="button1" onclick="increment()"></button>
+       </div>
         <h3>
+            <button id="button2" onclick="changeDuaa()"></button>
             <a 
             href="index.html"
-            style="border: 2.5px solid black; border-radius: 25px; padding: 10px;">
-                العودة</a>
+            style="border: 2.5px solid black; border-radius: 25px; padding: 10px; padding-bottom: 15px;">
+                محمد رزق</a>
         </h3>
     </body>
 </html>
