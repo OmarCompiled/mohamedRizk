@@ -5,6 +5,9 @@ function increment(){
 }
 
 function changeDuaa(){
+    const counter = document.getElementById("counter");
+    counter.innerHTML = 0;
+    
     const duaa = document.getElementById("duaa"); 
     const duaa1 = "اللهم تجاوز عن سيئاته";
     const duaa2 = "اللهم اجعل قبره روضةً من رياض الجنَّة";
